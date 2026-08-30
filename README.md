@@ -53,7 +53,8 @@ carrier board. For register-level programming, refer to the
 
 The module has two rows of 16 castellated pads. Pin numbers below are as seen
 from the top side, and should be cross-checked against the images in
-`images/` and `ADS8688A_Module.PDF` before laying out a carrier footprint.
+`images/` and the schematic/board PDF attached to
+[GitHub Releases](../../releases) before laying out a carrier footprint.
 The round silkscreen marker on the top side sits next to pin 1 of the analog
 edge (`AIN_6P`).
 
@@ -211,7 +212,8 @@ reproducing the castellated pad layout) is attached to
 # Hardware Design
 
 This section is for understanding, modifying, or manufacturing the module.
-The full schematic and board documentation is in `ADS8688A_Module.PDF`.
+The full schematic and board documentation (PDF) is attached to
+[GitHub Releases](../../releases).
 
 ![Schematic](images/schematic.png)
 
@@ -319,7 +321,7 @@ SDO series resistor close to the ADS8688A.
 
 The module mounts directly onto a carrier PCB via the castellated edge pads;
 the carrier footprint must reproduce the module pad positions (see
-`ADS8688A_Module.PDF` and the design files for exact geometry). It can be
+the PDF on GitHub Releases and the design files for exact geometry). It can be
 attached by reflow, hot air, or hand soldering of the castellations.
 
 ## Bottom GND Pads
@@ -359,7 +361,6 @@ so the same outputs can also be regenerated from the included OutJob.
 ├── README.md
 ├── README.ja.md               # Japanese version of this README
 ├── LICENSE                    # CERN-OHL-P-2.0
-├── ADS8688A_Module.PDF        # Schematic + board documentation (PDF output)
 ├── ads8688-module.PrjPcb      # Altium Designer project
 ├── ADS8688.SchDoc             # Schematic
 ├── ADS8688.PcbDoc             # PCB layout
